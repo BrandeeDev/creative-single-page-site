@@ -43,7 +43,7 @@ const BrandNaming = () => {
         setCurrentSlide(prevState => decrement(prevState));
     }
     return (<div className="sm:flex sm:flex-row sm:justify-start sm:items-start sm:relative sm:pb-[120px] lg:pb-[200px]">
-        <div className="w-full h-[404px] sm:absolute sm:right-0 sm:top-0 sm:w-3/5 sm:h-[472px]  sm:z-0 sm:object-cover relative  lg:w-8/12  lg:h-[728px]">
+        <div className="w-full h-[404px] sm:absolute sm:right-0 sm:top-0 sm:w-3/5 sm:h-[472px]  sm:z-0 sm:object-cover relative  lg:w-[895px]  lg:h-[728px]">
             <img src={require(`../assets/mobile/${slides[currentSlide].slide}`)} alt="" className="w-full h-full sm:hidden z-0"/>
             <img src={require(`../assets/tablet/${slides[currentSlide].slide}`)} alt="" className="hidden sm:flex w-full  h-full z-0 lg:hidden  "/>
             <img src={require(`../assets/desktop/${slides[currentSlide].slide}`)} alt="" className="hidden lg:flex w-full  h-full z-0   "/>
@@ -73,7 +73,7 @@ const BrandNaming = () => {
                 </svg>
 
             </div>
-            <img src={whiteWave} alt="" className="hidden sm:flex absolute top-[126px] -right-[32px] z-20 object-cover w-[63px] h-[29px] lg:top-[186px]"/>
+            <img src={whiteWave} alt="" className="hidden sm:flex absolute top-[126px] -right-[67px] z-20 object-cover w-[134px] h-[60px] lg:top-[186px]"/>
         </div>
     </div>);
 };

@@ -12,11 +12,11 @@ const Presentation = () => {
             <img src={heroDesktop} alt="" className="hidden lg:flex  w-3/5 z-0  absolute right-0 h-full bottom-0 "/>
 
             <div
-                className="w-full flex flex-col justify-start items-start px-6 pt-[56px] sm:px-0 sm:pl-[39px] sm:z-10  sm:pt-[151px] lg:pl-[165px] lg:pt-[184px] lg:pb-[160px] ">
+                className="w-full flex flex-col justify-start items-start px-6 pt-[56px] sm:px-0 sm:pl-[39px] sm:z-10  sm:pt-[151px] lg:pl-[165px] lg:pt-[112px] lg:pb-[160px] ">
                 <h1 className="font-com font-extrabold not-italic text-[40px] leading-[40px] sm:text-[56px] sm:leading-[56px] text-black   sm:w-[398px] lg:text-[80px] lg:leading-[88px] lg:w-[600px]">Branding
                     &
                     website design agency</h1>
-                <p className="font-com not-italic font-normal text-[15px] leading-[25px] text-black mt-[15px] sm:mt-[19px]  sm:w-[398px] lg:mt-[39px] lg:text-lg lg:leading-[18px] lg:w-[540px]">We
+                <p className="font-com not-italic font-normal text-[15px] leading-[25px] text-black mt-[15px] sm:mt-[19px]  sm:w-[398px] lg:mt-[39px] lg:text-lg lg:leading-8 lg:w-[540px]">We
                     specialize in visual storytelling by creating cohesive brand and website design solutions for
                     small businesses, giving lasting impressions to audiences in a digital world.</p>
                 <button
